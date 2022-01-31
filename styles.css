@@ -1,0 +1,117 @@
+body {
+    margin-top: 0px;
+    font-size: 2vw;
+    /* width: 100%; */
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2196f3;
+    color: white;
+}
+nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 30px;
+}
+.club-name {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.club-name h2 {
+    display: flex;
+    background-color: #e91e63;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 5px 0px 5px;
+}
+
+
+.background {
+    display: flex;
+    background-image: url("images/jonathan-borba-lrQPTQs7nQQ-unsplash.jpg");  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap; 
+}
+
+.background p{
+    display: flex;
+    color: white; 
+    font-size: 2.5vw;
+    margin: 20px;
+    justify-content: center;
+    padding: 0.5em;
+      
+}
+
+.back {
+    background-color: #2196f3;
+    opacity: 0.8;
+    border-radius: 0.2em;
+    line-height: 0.2em;
+}
+
+.gallery {
+    display: flex;
+    width: 100%;
+    background-color: #003152;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.images img {
+    height: 400px;
+    width: 400px;
+    margin-top: 1.2rem;
+}
+
+.gallery-text {
+    font-size: 2em;
+    color: whitesmoke;
+    margin-top: -20px;
+    margin-bottom: -30px;
+}
+
+.gallery .images{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.meeting-time {
+    text-align: center;
+    /* background-color: #2196f3; */
+    color: #2196f3;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #2196f3;
+    font-size: 0.8em;
+}
